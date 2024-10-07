@@ -1,0 +1,27 @@
+
+---Downloaded files---
+The import files for: Demo were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://wp.quomodosoft.com/glint
+Data file = /home/quomodouser/wp.quomodosoft.com/glint/wp-content/plugins/glint-extra//demo/demo-data.xml
+Widget file = /home/quomodouser/wp.quomodosoft.com/glint/wp-content/plugins/glint-extra//demo/widget.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Sidebar : 
+
+Glint Latest Posts - Latest Post - Widget already exists
+Categories - CATEGORIES - Widget already exists
+Tag Cloud - Tags - Widget already exists
+
+Header Side panel Menu Widget : 
+
+Text - No Title - Imported
+
+
+
+---pt-ocdi/after_import---
+

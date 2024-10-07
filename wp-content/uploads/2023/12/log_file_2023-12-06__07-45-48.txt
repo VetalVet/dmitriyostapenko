@@ -1,0 +1,35 @@
+
+---Downloaded files---
+The import files for: Demo were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://www.dmitriyostapenko.com
+Data file = /home/rn522819/dmitriyostapenko.com/www/wp-content/plugins/glint-extra//demo/demo-data.xml
+Widget file = /home/rn522819/dmitriyostapenko.com/www/wp-content/plugins/glint-extra//demo/widget.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Glint Latest Posts - Latest Post - Imported
+Рубрики - CATEGORIES - Imported
+Облако меток - Tags - Imported
+
+Header Side panel Menu Widget : 
+
+Текст - No Title - Imported
+
+
+
+---ocdi/after_import---
+

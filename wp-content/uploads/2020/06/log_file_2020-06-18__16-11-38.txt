@@ -1,0 +1,33 @@
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://wp.quomodosoft.com/glint
+Data file = /home/quomodouser/wp.quomodosoft.com/glint/wp-content/uploads/2020/06/glint.WordPress.2020-06-18.xml
+Widget file = /home/quomodouser/wp.quomodosoft.com/glint/wp-content/uploads/2020/06/quomodothemes.website-glint-widgets.wie
+Customizer file = /home/quomodouser/wp.quomodosoft.com/glint/wp-content/uploads/2020/06/glint-export.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Footer #1 : 
+
+Glint Latest Posts - Latest Post - Imported
+Categories - CATEGORIES - Imported
+Tag Cloud - Tags - Imported
+
+header-widget-nav : Sidebar does not exist in theme (moving widget to Inactive)
+
+Text - No Title - Imported to Inactive
+
+
+
+---Importing customizer settings---
+Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme.
+
+---pt-ocdi/after_import---
+

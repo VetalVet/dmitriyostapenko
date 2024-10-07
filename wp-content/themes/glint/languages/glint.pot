@@ -1,0 +1,817 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: glint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-24 17:29+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html__e;esc_attr__;esc_attr__e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: 404.php:56 inc/theme-options/theme-options.php:655
+msgid "404! Not Found..."
+msgstr ""
+
+#: 404.php:65 inc/theme-options/theme-options.php:665
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: 404.php:76 inc/theme-options/theme-options.php:675
+msgid "Go Back To Home"
+msgstr ""
+
+#: comments.php:37
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:77
+msgid "Name..."
+msgstr ""
+
+#: comments.php:80
+msgid "Email..."
+msgstr ""
+
+#: comments.php:83
+msgid "Subject..."
+msgstr ""
+
+#: comments.php:90
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:91
+#, php-format
+msgid "Leave A Reply To %s"
+msgstr ""
+
+#: comments.php:96
+msgid "Comment"
+msgstr ""
+
+#: comments.php:98
+msgid "Comment..."
+msgstr ""
+
+#: header.php:122
+msgid "Search Here"
+msgstr ""
+
+#: inc/breadcrumb.php:15
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb.php:143
+msgid "Author archive for: "
+msgstr ""
+
+#: inc/breadcrumb.php:190
+msgid "Searched for: "
+msgstr ""
+
+#: inc/breadcrumb.php:195
+msgid "Error 404"
+msgstr ""
+
+#: inc/breadcrumb.php:201
+#, php-format
+msgid " ( Page %s )"
+msgstr ""
+
+#: inc/class-glint-excerpt.php:59
+msgid "  Read More"
+msgstr ""
+
+#: inc/class-glint-init.php:82
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/class-glint-init.php:86
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/class-glint-init.php:141
+msgid "Sidebar"
+msgstr ""
+
+#: inc/class-glint-init.php:143
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/class-glint-init.php:151
+msgid "Header Side panel Menu Widget"
+msgstr ""
+
+#: inc/class-glint-init.php:153
+msgid "Add Header Side Panel widgets here."
+msgstr ""
+
+#: inc/comments-modification.php:46
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/comments-modification.php:54
+msgid "Reply"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:393
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:912
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2618
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3664
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:394
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:399
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:1019
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3592
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3594
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s done."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3600
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/plugins/tgma/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/template-functions.php:72 template-parts/content-page.php:20
+msgid "Pages:"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:38
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:44
+msgid "Enable?"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:45
+msgid "If you want to display page title bar, select on."
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:52
+msgid "Custom Page Title"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:53
+msgid "Your Cuatom Page Title."
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:65
+msgid "Page title Background Image"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:75
+msgid "Breadcrumb Image"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:77
+msgid "you can set <mark>background</mark> for breadcrumb"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:95
+msgid "Enable Dark Mode"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:101
+msgid "Enable Dark mode in page?"
+msgstr ""
+
+#: inc/theme-options/theme-metabox.php:102
+msgid "If you want to display page dark version, select on."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:26
+msgid "Global Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:33
+msgid "Preloader"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:40
+msgid "Enable Pre Loader"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:41
+#: inc/theme-options/theme-options.php:73
+#: inc/theme-options/theme-options.php:202
+#: inc/theme-options/theme-options.php:273
+#: inc/theme-options/theme-options.php:325
+#: inc/theme-options/theme-options.php:335
+#: inc/theme-options/theme-options.php:345
+#: inc/theme-options/theme-options.php:468
+#: inc/theme-options/theme-options.php:478
+#: inc/theme-options/theme-options.php:514
+#: inc/theme-options/theme-options.php:524
+#: inc/theme-options/theme-options.php:534
+#: inc/theme-options/theme-options.php:544
+#: inc/theme-options/theme-options.php:714
+msgid "Yes"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:42
+#: inc/theme-options/theme-options.php:74
+#: inc/theme-options/theme-options.php:203
+#: inc/theme-options/theme-options.php:274
+#: inc/theme-options/theme-options.php:326
+#: inc/theme-options/theme-options.php:336
+#: inc/theme-options/theme-options.php:346
+#: inc/theme-options/theme-options.php:469
+#: inc/theme-options/theme-options.php:479
+#: inc/theme-options/theme-options.php:515
+#: inc/theme-options/theme-options.php:525
+#: inc/theme-options/theme-options.php:535
+#: inc/theme-options/theme-options.php:545
+#: inc/theme-options/theme-options.php:715
+msgid "No"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:43
+msgid "Enable or disable Site Pre loader."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:65
+msgid "ScrollUp Button"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:72
+msgid "Enable Scroll Top Button"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:75
+msgid "Enable or disable Scroll Top Button."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:84
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:91
+msgid "Custom CSS Code"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:103
+msgid "Theme Color"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:114
+msgid "Theme Primary Color."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:123
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:131
+msgid "Body Typography"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:145
+msgid "Set body typography."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:151
+msgid "Heading Typography"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:160
+msgid "Set Heading Typography."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:166
+msgid "Post Title Typography"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:179
+msgid "These settings control the typography for Post Title."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:187
+msgid "Header Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:194
+msgid "Top Bar"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:201
+msgid "Enable Header Topbar"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:204
+#: inc/theme-options/theme-options.php:337
+msgid "Enable or disable header search."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:272
+msgid "Enable Header Top News Slider"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:275
+msgid "Enable or disable header top News Slider."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:317
+msgid "Header"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:324
+msgid "Enable Header Sticky"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:327
+msgid "Enable or disable header Sticky."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:334
+msgid "Enable Header Search"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:344
+msgid "Enable Header Right Panel Menu"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:347
+msgid "Enable or disable header user Menu."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:356
+msgid "Header background Color."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:365
+msgid "Logo"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:372
+msgid "Site Logo"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:374
+msgid "Note: This logo will overwrite <mark>Customizer>Site Identity</mark> uploaded logo"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:383
+msgid "Give Logo height in px. Default height is 50."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:390
+#: inc/theme-options/theme-options.php:396
+msgid "Navigation"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:402
+msgid "Menu Typography"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:413
+msgid "Set menu typography."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:420
+msgid "You can define spacing Top, Right, Bottom, Left, or Units."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:437
+msgid "Pages & Template"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:443
+msgid "Blog Page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:450
+msgid "Blog Page Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:455
+#: inc/theme-options/theme-options.php:501
+#: inc/theme-options/theme-options.php:567
+#: inc/theme-options/theme-options.php:593
+msgid "Select Page Layout"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:467
+#: inc/theme-options/theme-options.php:513
+msgid "Show Meta Info?"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:470
+#: inc/theme-options/theme-options.php:516
+msgid "Turn on to display post meta."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:477
+#: inc/theme-options/theme-options.php:533
+msgid "Social Share Menu?"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:480
+#: inc/theme-options/theme-options.php:536
+msgid "Turn on to display social share menu."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:489
+msgid "Blog Single Page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:496
+msgid "Blog Single Page Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:523
+msgid "Releted Tags?"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:526
+msgid "Turn on to display related tags."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:543
+msgid "Next Post Navigation?"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:546
+msgid "Turn on to display post navigation."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:555
+msgid "Archive  Page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:562
+msgid "Archive Page Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:581
+msgid "Search  Page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:588
+#: inc/theme-options/theme-options.php:633
+msgid "Search Page Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:607
+msgid "Page Spacing"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:614
+msgid "General Page Option"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:618
+msgid "Page Spacing Disable"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:626
+msgid "Error  Page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:638
+msgid "404 Image"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:640
+msgid "You can set <mark>background</mark> for error page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:651
+msgid "Error Page Heading"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:653
+#: inc/theme-options/theme-options.php:663
+msgid "you can change <mark>title</mark> of 404 page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:661
+msgid "Error Page Title"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:671
+msgid "Go Back Button Text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:673
+msgid "you can change <mark>button text</mark> of 404 page"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:684
+msgid "Footer Options"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:692
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:693
+msgid "Please type your copyright text. You can use all HTML tags."
+msgstr ""
+
+#: inc/theme-options/theme-options.php:698
+msgid "&copy; Glint 2020. All Rights Reserved | Powered by: <a target=\"_blank\" href=\"#\">QuomodoTheme</a>"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:713
+msgid "Show Footer Brands"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:716
+msgid "Enable or disable brands section."
+msgstr ""
+
+#: search.php:27
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:26
+msgid "Ready to publish your first post? "
+msgstr ""
+
+#: template-parts/content-none.php:26
+msgid "Get started here."
+msgstr ""
+
+#: template-parts/content-page.php:33
+msgid "Edit"
+msgstr ""
+
+#: template-parts/content-single.php:42
+msgid "Continue reading"
+msgstr ""
