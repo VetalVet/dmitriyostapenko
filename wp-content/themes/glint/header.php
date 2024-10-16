@@ -139,77 +139,86 @@
                 <a href="#" class="up-btn"><i class="fa fa-angle-up"></i></a>
             <?php endif; ?>
 
-            <div class="container">
-                <div class="row">
-                        <?php 
-                        if (has_custom_logo() || !empty($glint_logo_url)) { ?>
-                            <div class="col-6 col-lg-3 col-md-6 col-xs-6 col-sm-6 align-self-center">
-                                <?php if (isset($glint_logo['url']) && !empty($glint_logo_url)) { ?>
-                                    <a href="<?php echo esc_url(site_url('/')) ?>" class="logo">
-                                        <img src="<?php echo esc_url($glint_logo_url); ?>" alt="<?php echo esc_attr($glint_logo_alt) ?>">
-                                    </a>
-                                <?php } else {
-                                    the_custom_logo();
-                                } ?>
-                            </div>
-                        <?php } 
-                        //else { ?>
-                            <!-- <div class="site-title"><a href="<?php //echo esc_url(home_url('/')); ?>"><?php //echo esc_html(get_bloginfo('name')); ?></a></div> -->
-                        <?php //} ?>
-                    </div>
-
-                    <div class="<?php if ($enable_header_search == false): ?>col-6 col-lg-9 col-md-6 col-xs-6 col-sm-6<?php else: ?> col-6 col-lg-9 col-xs-6 col-sm-6 col-xl-8 <?php endif; ?> text-center align-self-center">
-                        <div class="main-menu">
-                            <div class="stellarnav">
-                                <?php
-                                wp_nav_menu([
-                                    'menu'            => 'main-menu',
-                                    'theme_location'  => 'mainmenu',
-                                    'container'       => '',
-                                    'container_class' => '',
-                                    'menu_class'      => 'navbarmneuclass',
-                                    'menu_id'         => 'scroll',
-                                    'walker'          => new Glint_Nav_Menu_Walker(),
-                                    'fallback_cb'     => 'Glint_Nav_Menu_Walker::fallback'
-                                ]);
-                                ?>
-                            </div>
+            <div class="container d-flex justify-content-between">
+                <?php
+                if (has_custom_logo() || !empty($glint_logo_url)) { ?>
+                    <div class="row">
+                        <div class="col-6 col-lg-3 col-md-6 col-xs-6 col-sm-6 align-self-center">
+                            <?php if (isset($glint_logo['url']) && !empty($glint_logo_url)) { ?>
+                                <a href="<?php echo esc_url(site_url('/')) ?>" class="logo">
+                                    <img src="<?php echo esc_url($glint_logo_url); ?>" alt="<?php echo esc_attr($glint_logo_alt) ?>">
+                                </a>
+                            <?php } else {
+                                the_custom_logo();
+                            } ?>
                         </div>
                     </div>
+                <?php } ?>
 
-                    <div class="d-none d-xl-block col-xl-1 align-self-center text-right">
-                        <div class="search-area">
-
-                            <?php if ($enable_header_search == true): ?>
-                                <div class="search-box">
-                                    <button class="search__bur__open"><i class="fa fa-search"></i></button>
-                                </div>
-                            <?php endif; ?>
-
-                            <?php if ($enable_header_right_nav == true): ?>
-                                <div class="grid-menu" id="grid-side">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon/hamburger.svg" alt="<?php the_title_attribute(); ?>">
-                                </div>
-                            <?php endif; ?>
-
+                <div class="<?php if ($enable_header_search == false): ?>col-6 col-lg-9 col-md-6 col-xs-6 col-sm-6<?php else: ?> col-6 col-lg-9 col-xs-6 col-sm-6 col-xl-8 <?php endif; ?> text-center align-self-center">
+                    <div class="main-menu">
+                        <div class="stellarnav">
+                            <?php
+                            wp_nav_menu([
+                                'menu'            => 'main-menu',
+                                'theme_location'  => 'mainmenu',
+                                'container'       => '',
+                                'container_class' => '',
+                                'menu_class'      => 'navbarmneuclass',
+                                'menu_id'         => 'scroll',
+                                'walker'          => new Glint_Nav_Menu_Walker(),
+                                'fallback_cb'     => 'Glint_Nav_Menu_Walker::fallback'
+                            ]);
+                            ?>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="slide-widgets-wrap" id="slide-widgets">
-                <div class="side-widgets" id="side-content">
-                    <div class="side-close" id="close-btn">
-                        <i class="fa fa-times"></i>
-                    </div>
 
-                    <?php if (is_active_sidebar('header-widget-nav')): ?>
-                        <div class="header-top-widget">
-                            <?php dynamic_sidebar('header-widget-nav'); ?>
+                <div class="d-none d-xl-block col-xl-4 align-self-center text-right">
+                    <div class="search-area d-flex gap-2 align-self-center justify-content-end">
+                        <div class="switcher d-flex">
+                            <?php
+                                pll_the_languages(array(
+                                    // 'show_flags' => 1,
+                                    // 'show_names' => 1,
+                                    'display_names_as' => 'slug',
+                                )); 
+                            ?>
                         </div>
-                    <?php endif; ?>
+
+                        <?php if ($enable_header_search == true): ?>
+                            <div class="search-box">
+                                <button class="search__bur__open"><i class="fa fa-search"></i></button>
+                            </div>
+                        <?php endif; ?>
+
+                        <?php if ($enable_header_right_nav == true): ?>
+                            <div class="grid-menu" id="grid-side">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon/hamburger.svg" alt="<?php the_title_attribute(); ?>">
+                            </div>
+                        <?php endif; ?>
+                        <style>
+                            
+                        </style>
+
+                    </div>
                 </div>
             </div>
         </div>
-        <!--::::: HEADER AREA END :::::::-->
+        <div class="slide-widgets-wrap" id="slide-widgets">
+            <div class="side-widgets" id="side-content">
+                <div class="side-close" id="close-btn">
+                    <i class="fa fa-times"></i>
+                </div>
 
-        <div id="content" class="site-content">
+                <?php if (is_active_sidebar('header-widget-nav')): ?>
+                    <div class="header-top-widget">
+                        <?php dynamic_sidebar('header-widget-nav'); ?>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+    <!--::::: HEADER AREA END :::::::-->
+
+    <div id="content" class="site-content">
