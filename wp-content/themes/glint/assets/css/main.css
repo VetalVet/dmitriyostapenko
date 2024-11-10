@@ -8237,6 +8237,7 @@ table#wp-calendar tr a,
 .switcher {
     min-width: 65px;
     gap: 20px;
+    align-items: center;
 }
 
 .search-area {
@@ -8271,4 +8272,18 @@ table#wp-calendar tr a,
 .wc-block-components-button {
     background-color: #08d665;
     color: #FFF;
+}
+
+.wc-block-components-button:hover {
+    color: #FFF;
+}
+
+.cart_btn {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input {
+    pointer-events: none;
 }
