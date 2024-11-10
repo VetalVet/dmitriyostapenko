@@ -196,11 +196,6 @@
                             </div>
                         <?php endif; ?>
 
-                        <?php if (is_active_sidebar('header-widget-nav')): ?>
-                            <div class="header-top-widget">
-                                <?php dynamic_sidebar('header-widget-nav'); ?>
-                            </div>
-                        <?php endif; ?>
                     </div>
                 </div>
             </div>
