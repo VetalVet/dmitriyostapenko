@@ -1,0 +1,46 @@
+form.woocommerce-checkout {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.woocommerce form .form-row {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.woocommerce form .form-row label {
+    line-height: normal;
+}
+
+.woocommerce form .form-row input.input-text, 
+.woocommerce form .form-row textarea {
+    border: 1px solid #bcbcbc;
+    padding: 13px;
+    margin-bottom: 17px;
+}
+
+
+.woocommerce form .form-row input:focus,
+.woocommerce form .form-row textarea:focus {
+    border-color: #08d665;
+}
+
+form.woocommerce-checkout .billing_fields {
+    flex: 0 1 49%;
+}
+
+form.woocommerce-checkout .total {
+    flex: 0 1 49%;
+}
+
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+    background-color: #08d665;
+}
+
+.woocommerce form .form-row.update_totals_on_change,
+.woocommerce form .form-row#billing_state_field {
+    margin-bottom: 17px;
+}

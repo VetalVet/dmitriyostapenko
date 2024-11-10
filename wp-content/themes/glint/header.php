@@ -179,8 +179,6 @@
                         <div class="switcher d-flex">
                             <?php
                                 pll_the_languages(array(
-                                    // 'show_flags' => 1,
-                                    // 'show_names' => 1,
                                     'display_names_as' => 'slug',
                                 )); 
                             ?>
@@ -197,9 +195,6 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon/hamburger.svg" alt="<?php the_title_attribute(); ?>">
                             </div>
                         <?php endif; ?>
-                        <style>
-                            
-                        </style>
 
                     </div>
                 </div>

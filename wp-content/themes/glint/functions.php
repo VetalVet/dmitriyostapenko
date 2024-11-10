@@ -13,6 +13,30 @@
  * Define Const for theme Dir
  * @since 1.0.0
  * */
+// add_action('wp_enqueue_scripts', '_scripts');
+// function _scripts(){
+//     if (is_admin()) return; // don't dequeue on the backend
+    // wp_deregister_script( 'jquery' );
+
+
+    // common styles
+    // wp_enqueue_style('gallery', get_template_directory_uri() . '/assets/css/lightgallery-bundle.min.css');
+    // wp_enqueue_style('swiper', get_template_directory_uri() . '/assets/css/swiper-bundle.min.css');
+    // wp_enqueue_style('-style', get_stylesheet_uri());
+    // common styles
+    //=====================================================================
+    // common scripts
+    // wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.7.1.slim.min.js', array(), null, true);
+    // wp_enqueue_script('select', get_template_directory_uri() . '/assets/js/select.js', array(), null, true);
+    // wp_enqueue_script('gallery', get_template_directory_uri() . '/assets/js/lightgallery.min.js', array(), null, true);
+    // wp_enqueue_script('da', get_template_directory_uri() . '/assets/js/dynamicAdapt.js', array(), null, true);
+    // wp_enqueue_script('popup', get_template_directory_uri() . '/assets/js/popup.js', array(), null, true);
+
+    // wp_enqueue_script('-scripts', get_template_directory_uri() . '/assets/js/main.js', array(), null, true);
+// }
+
+
+
 define( 'GLINT_ROOT_PATH', get_template_directory() );
 define( 'GLINT_ROOT_URL', get_template_directory_uri() );
 define( 'GLINT_CSS', GLINT_ROOT_URL . '/assets/css' );
@@ -121,3 +145,16 @@ function glint_move_comment_field_to_bottom( $fields ) {
 
 add_filter( 'comment_form_fields', 'glint_move_comment_field_to_bottom' );
 remove_action( 'set_comment_cookies', 'wp_set_comment_cookies' );
+
+
+add_theme_support('woocommerce');       // поддержка woocommerce(опционально) 
+require get_template_directory() . '/woocommerce/woocommerce.php';
+
+// if (!is_admin()) {
+//     add_filter('script_loader_tag', 'add_defer', 10, 2);
+
+//     function add_defer($tag, $handle)
+//     {
+//         return str_replace(' src=', ' defer src=', $tag);
+//     }
+// }
