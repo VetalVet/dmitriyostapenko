@@ -13,6 +13,9 @@
  * Define Const for theme Dir
  * @since 1.0.0
  * */
+
+//  error_reporting(0);
+
 // add_action('wp_enqueue_scripts', '_scripts');
 // function _scripts(){
 //     if (is_admin()) return; // don't dequeue on the backend

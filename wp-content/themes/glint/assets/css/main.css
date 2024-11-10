@@ -8218,7 +8218,7 @@ table#wp-calendar tr a,
 /* переключатель языка */
 .lang-item {
     list-style: none;
-    /* width: 30px; */
+    white-space: nowrap;
 }
 .lang-item.current-lang {
     border-bottom: 1px solid #08d665;
@@ -8243,3 +8243,32 @@ table#wp-calendar tr a,
     gap: 20px;
 }
 /* переключатель языка */
+
+.wc-block-mini-cart__button {
+    padding: 0 !important;
+    color: #fff !important;
+}
+
+.wc-block-mini-cart__button:hover {
+    color: #08D665 !important;
+}
+
+.wc-block-mini-cart__badge {
+    color: #fff;
+    background: #08D665;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px !important;
+    width: 25px !important;
+    border-radius: 50%;
+}
+
+.wc-block-components-button__text {
+
+}
+
+.wc-block-components-button {
+    background-color: #08d665;
+    color: #FFF;
+}
