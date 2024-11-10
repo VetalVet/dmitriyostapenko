@@ -150,7 +150,7 @@ add_filter( 'comment_form_fields', 'glint_move_comment_field_to_bottom' );
 remove_action( 'set_comment_cookies', 'wp_set_comment_cookies' );
 
 
-add_theme_support('woocommerce');       // поддержка woocommerce(опционально) 
+// add_theme_support('woocommerce');       // поддержка woocommerce(опционально) 
 require get_template_directory() . '/woocommerce/woocommerce.php';
 
 // if (!is_admin()) {
