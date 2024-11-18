@@ -5005,12 +5005,70 @@ span.single-social-icon i {
 
 .footer-top {
     padding: 100px 0 0 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form_footer {
+
 }
 
 .footer-menu ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+@media (max-width: 1200px) {
+    .footer-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-top {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 992px) {
+    .form_footer .cta-form {
+        flex-direction: column;
+    }
+    
+    .form_footer {
+        flex: 0 1 50%;
+    }
+
+    .form_footer .cta-form input {
+        width: 100% !important;
+    }
+    .form_footer .cta-form .subscribe-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-top {
+        padding: 30px 0 0 0;
+    }
+    
+    .form_footer .cta-form input {
+        margin: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .form_footer {
+        flex: 0 1 100%;
+        width: 100%;
+    }
 }
 
 .footer-menu li {
@@ -6825,6 +6883,7 @@ time.updated {
     z-index: 2;
     text-align: left;
     border: 1px solid transparent;
+    white-space: nowrap;
 }
 
 .welcome-area-wrap {
@@ -8286,4 +8345,10 @@ table#wp-calendar tr a,
 
 .wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input {
     pointer-events: none;
+}
+
+@media (max-width: 991px) {
+    .search-area {
+        gap: 15px;
+    }
 }

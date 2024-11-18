@@ -70,46 +70,44 @@ $copyright_text_allowed_tags = array(
     <?php endif; ?>
     <div class="footer-menu-and-copyright">
         <div class="container">
-            <div class="row">
-                <div class="footer-top col-lg-12 text-center d-flex justify-content-between align-items-center">
-                    <div class="col-lg-6 p-0">
-                        <?php echo do_shortcode('[mc4wp_form id=114]'); ?>
-                    </div>
-                    <div class="col-lg-6 d-flex align-items-center gap-2 justify-content-between p-0">
-                        <?php if (has_nav_menu('footermenu')) : ?>
-                            <?php
-                            wp_nav_menu(
-                                array(
-                                    'menu'            => 'footer-menu',
-                                    'theme_location'  => 'footermenu',
-                                    'container'       => 'div',
-                                    'container_class' => 'footer-menu',
-                                    'menu_class'      => 'footer-navv',
-                                    'depth'           => 1
-                                )
-                            );
-                            ?>
-                        <?php endif; ?>
-                        <div class="switcher d-flex">
-                            <?php
-                            pll_the_languages(array(
-                                'display_names_as' => 'slug',
-                            ));
-                            ?>
-                        </div>
-                    </div>
+            <div class="footer-top">
+                <div class="form_footer">
+                    <?php echo do_shortcode('[mc4wp_form id=114]'); ?>
                 </div>
+                <!-- <div class="d-flex align-items-center justify-content-between"> -->
+                    <?php if (has_nav_menu('footermenu')) : ?>
+                        <?php
+                        wp_nav_menu(
+                            array(
+                                'menu'            => 'footer-menu',
+                                'theme_location'  => 'footermenu',
+                                'container'       => 'div',
+                                'container_class' => 'footer-menu',
+                                'menu_class'      => 'footer-navv',
+                                'depth'           => 1
+                            )
+                        );
+                        ?>
+                    <?php endif; ?>
+                    <div class="switcher d-flex">
+                        <?php
+                        pll_the_languages(array(
+                            'display_names_as' => 'slug',
+                        ));
+                        ?>
+                    </div>
+                <!-- </div> -->
+            </div>
 
 
-                <div class="footer-copyright text-center">
-                    <?php
-                    if (!empty($copyright_text)) {
-                        echo wp_kses($copyright_text, $copyright_text_allowed_tags);
-                    } else {
-                        esc_html_e('Copyright &copy; QuomodoTheme 2020 All Right Reserved.', 'glint');
-                    }
-                    ?>
-                </div>
+            <div class="footer-copyright text-center">
+                <?php
+                if (!empty($copyright_text)) {
+                    echo wp_kses($copyright_text, $copyright_text_allowed_tags);
+                } else {
+                    esc_html_e('Copyright &copy; QuomodoTheme 2020 All Right Reserved.', 'glint');
+                }
+                ?>
             </div>
         </div>
     </div>

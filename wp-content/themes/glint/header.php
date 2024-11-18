@@ -143,7 +143,7 @@
                 <?php
                 if (has_custom_logo() || !empty($glint_logo_url)) { ?>
                     <div class="row">
-                        <div class="col-6 col-lg-3 col-md-6 col-xs-6 col-sm-6 align-self-center">
+                        <div class="align-self-center">
                             <?php if (isset($glint_logo['url']) && !empty($glint_logo_url)) { ?>
                                 <a href="<?php echo esc_url(site_url('/')) ?>" class="logo">
                                     <img src="<?php echo esc_url($glint_logo_url); ?>" alt="<?php echo esc_attr($glint_logo_alt) ?>">
@@ -155,7 +155,7 @@
                     </div>
                 <?php } ?>
 
-                <div class="<?php if ($enable_header_search == false): ?>col-6 col-lg-9 col-md-6 col-xs-6 col-sm-6<?php else: ?> col-6 col-lg-9 col-xs-6 col-sm-6 col-xl-8 <?php endif; ?> text-center align-self-center">
+                <div class="<?php if ($enable_header_search == false): ?><?php else: ?> <?php endif; ?> text-center align-self-center">
                     <div class="main-menu">
                         <div class="stellarnav">
                             <?php
@@ -174,7 +174,7 @@
                     </div>
                 </div>
 
-                <div class="d-none d-xl-block col-xl-4 align-self-center text-right">
+                <div class="align-self-center text-right">
                     <div class="search-area d-flex gap-2 align-self-center justify-content-end">
                         <div class="switcher d-flex">
                             <?php
