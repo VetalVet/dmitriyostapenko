@@ -222,6 +222,7 @@
             </div>
         </div>
     </div>
+    <?php //the_widget('WC_Widget_Cart'); ?>
     <!--::::: HEADER AREA END :::::::-->
 
     <div id="content" class="site-content">

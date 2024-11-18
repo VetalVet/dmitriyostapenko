@@ -14,7 +14,7 @@
  * @since 1.0.0
  * */
 
-//  error_reporting(0);
+error_reporting(0);
 
 add_action('wp_enqueue_scripts', 'glint_scripts');
 function glint_scripts(){
