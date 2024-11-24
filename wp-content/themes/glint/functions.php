@@ -152,6 +152,8 @@ remove_action( 'set_comment_cookies', 'wp_set_comment_cookies' );
 // add_theme_support('woocommerce');       // поддержка woocommerce(опционально) 
 require get_template_directory() . '/woocommerce/woocommerce.php';
 
+require get_template_directory() . '/functions/polylang.php';
+
 // if (!is_admin()) {
 //     add_filter('script_loader_tag', 'add_defer', 10, 2);
 
@@ -160,3 +162,24 @@ require get_template_directory() . '/woocommerce/woocommerce.php';
 //         return str_replace(' src=', ' defer src=', $tag);
 //     }
 // }
+
+// Проверка на кол-во цифр в форме Contact Form 7
+function custom_phone_validation($result, $tag)
+{
+    $type = $tag->type;
+    $name = $tag->name;
+
+    if ($type == 'tel' || $type == 'tel*') {
+
+        $phoneNumber = isset($_POST[$name]) ? trim($_POST[$name]) : '';
+
+        $phoneNumber = preg_replace('/[^0-9]/', '', $phoneNumber);
+        if (strlen((string)$phoneNumber) < 12) {
+            $result->invalidate($tag, esc_html(pll__('Please enter a valid phone number.')));
+        }
+    }
+    return $result;
+}
+add_filter('wpcf7_validate_tel', 'custom_phone_validation', 10, 2);
+add_filter('wpcf7_validate_tel*', 'custom_phone_validation', 10, 2);
+// Проверка на кол-во цифр в форме Contact Form 7

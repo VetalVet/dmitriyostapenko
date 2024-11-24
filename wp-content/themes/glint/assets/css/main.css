@@ -3438,6 +3438,7 @@ article.sticky::after {
 
 .header-area {
     transition: all .3s;
+    /* height: 80px; */
 }
 
 
@@ -6412,7 +6413,7 @@ span.blog-banner a {
 
 .search-area div {
     display: inline-block;
-    position: relative;
+    /* position: relative; */
 }
 
 .header-search button.submit-btn {
@@ -8337,10 +8338,11 @@ table#wp-calendar tr a,
     color: #FFF;
 }
 
-.cart_btn {
+#block-8 {
     display: flex;
     align-items: center;
     color: #fff;
+    position: static;
 }
 
 .wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input {
