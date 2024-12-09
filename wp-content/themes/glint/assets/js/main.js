@@ -69,22 +69,23 @@
     /*---------------------
         	Nice Select ***
         ----------------------*/
-    jQuery("select").niceSelect();
+    if(!window.location.pathname.includes('checkout') || !window.location.pathname.includes('my-account')) {
+      jQuery("select").niceSelect();
+    }
 
-    const dataset = document.querySelector(".js-modal-video-btn").dataset
-      .videoId;
-    const channel = isNaN(dataset) ? "youtube" : "vimeo";
+    // const dataset = document.querySelector(".js-modal-video-btn").dataset.videoId;
+    // const channel = isNaN(dataset) ? "youtube" : "vimeo";
 
-    new ModalVideo(".js-modal-video-btn", {
-      channel: `${channel}`,
-      youtube: {
-        controls: 1,
-        nocookie: false,
-        autoplay: true,
-        modestbranding: 1,
-        rel: 0,
-      },
-    });
+    // new ModalVideo(".js-modal-video-btn", {
+    //   channel: `${channel}`,
+    //   youtube: {
+    //     controls: 1,
+    //     nocookie: false,
+    //     autoplay: true,
+    //     modestbranding: 1,
+    //     rel: 0,
+    //   },
+    // });
 
     new WOW().init();
 

@@ -44,3 +44,24 @@ form.woocommerce-checkout .total {
 .woocommerce form .form-row#billing_state_field {
     margin-bottom: 17px;
 }
+
+.select2-container--default .select2-selection--single {
+    padding: 7px 6px !important;
+    height: auto !important;
+    color: #000 !important;
+    border-radius: 0px !important;
+    border: 1px solid #bcbcbc !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 8px !important;
+    right: 10px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #0b0d0e;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #0b0d0e transparent transparent transparent !important;
+}

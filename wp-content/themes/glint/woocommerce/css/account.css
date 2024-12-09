@@ -1,0 +1,43 @@
+.woocommerce-MyAccount-navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+.woocommerce-MyAccount-navigation-link {
+    list-style: none !important;
+}
+
+.woocommerce-MyAccount-navigation-link.is-active a {
+    color: #08D665 !important;
+    pointer-events: none;
+}
+
+.woocommerce table.shop_table {
+    border-collapse: collapse !important;
+}
+
+.woocommerce-orders-table__row--status-completed {
+    background-color: #93e6b8 !important;
+}
+
+.woocommerce-orders-table__row--status-failed,
+.woocommerce-orders-table__row--status-cancelled{
+    background-color: rgb(230, 147, 175) !important;
+}
+
+.woocommerce-orders-table__row--status-processing,
+.woocommerce-orders-table__row--status-pending,
+.woocommerce-orders-table__row--status-on-hold  {
+    background-color: rgb(242, 255, 165) !important;
+}
+
+.woocommerce table.my_account_orders .button {
+    margin-right: 5px;
+}
+.woocommerce table.my_account_orders .button:last-child {
+    margin: 0;
+}
+
+.edit.button {
+    margin-bottom: 10px !important;
+}
