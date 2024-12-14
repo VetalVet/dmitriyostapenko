@@ -1,0 +1,11 @@
+.wc-block-grid__product-link {
+    width: 100% !important;
+}
+
+.wc-block-grid__product-image {
+    width: 100% !important;
+}
+
+.wc-block-grid__products .wc-block-grid__product-image img {
+    width: 100% !important;
+}

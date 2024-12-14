@@ -69,7 +69,7 @@
     /*---------------------
         	Nice Select ***
         ----------------------*/
-    if(!window.location.pathname.includes('checkout') || !window.location.pathname.includes('my-account')) {
+    if(!window.location.pathname.includes('checkout') && !window.location.pathname.includes('my-account')) {
       jQuery("select").niceSelect();
     }
 

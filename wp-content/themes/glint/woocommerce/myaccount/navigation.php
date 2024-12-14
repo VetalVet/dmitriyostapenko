@@ -32,6 +32,14 @@ do_action( 'woocommerce_before_account_navigation' );
 			</li>
 		<?php endforeach; ?>
 	</ul>
+
+	<select id="navigation_account">
+		<?php foreach ( wc_get_account_menu_items() as $endpoint => $label ) : ?>
+			<option value="<?php echo esc_url( wc_get_account_endpoint_url( $endpoint ) ); ?>" <?php echo wc_is_current_account_menu_item( $endpoint ) ? 'selected' : ''; ?>>
+				<?php echo esc_html( $label ); ?>
+			</option>
+		<?php endforeach; ?>
+	</select>
 </nav>
 
 <?php do_action( 'woocommerce_after_account_navigation' ); ?>

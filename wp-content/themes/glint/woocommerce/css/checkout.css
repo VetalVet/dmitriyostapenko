@@ -65,3 +65,9 @@ form.woocommerce-checkout .total {
 .select2-container--default .select2-selection--single .select2-selection__arrow b {
     border-color: #0b0d0e transparent transparent transparent !important;
 }
+
+#order_review .wc-ppcp-checkout-container {
+    max-width: 50% !important;
+    margin: 0px auto !important;
+    width: 50% !important;
+}

@@ -54,6 +54,12 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
 
         if(is_account_page()){
             wp_enqueue_style('account', get_template_directory_uri() . '/woocommerce/css/account.css');
+            
+            wp_enqueue_script('account', get_template_directory_uri() . '/woocommerce/js/account.js', array('jquery'), null, true);
+        }
+
+        if(is_cart()){
+            wp_enqueue_style('cart', get_template_directory_uri() . '/woocommerce/css/cart.css');
         }
     }
 
